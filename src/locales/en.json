@@ -5,5 +5,24 @@
         "about": "About Us",
         "contact": "Contact Us",
         "button": "QUOTE NOW"
+    },
+
+    "hero": {
+        "quoteBtn": "QUOTE NOW",
+        "contactBtn": "CONTACT US"
+    },
+
+    "home": {
+        "top": "ALUMINUM & WINDOWS WORK",
+        "title1": "Quality Work,",
+        "title2": "Perfect Results.",
+        "sub": "With years of experience, we provide trustable solutions regardin doors, windows, and terrace systems."
+    },
+
+    "features": {
+        "projects": "Completed projects",
+        "experience": "Years of experience",
+        "happy": "Happy customers",
+        "support": "Customer support"
     }
 }

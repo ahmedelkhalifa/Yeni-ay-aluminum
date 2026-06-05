@@ -5,5 +5,39 @@
         "about": "Hakkımızda",
         "contact": "İletişim",
         "button": "TEKLİF AL"
+    },
+
+    "hero": {
+        "quoteBtn": "TEKLİF AL",
+        "contactBtn": "İLETİŞİM"
+    },
+
+    "home": {
+        "top": "ALÜMİNYUM & CAM SİSTEMLERİ",
+        "title1": "kaliteli İşçilik,",
+        "title2": "Kusursuz Sonuçlar.",
+        "sub": "Yılların deneyimiyle kapı, pencere, balkon ve teras sistemlerinde güvenilir çözümler sunuyoruz."
+    },
+
+    "features": {
+        "projects": "Tamamlanan proje",
+        "experience": "Yıllık deneyim",
+        "happy": "Müşteri memnuniyeti",
+        "support": "Müşteri desteği"
+    },
+
+    "footer": {
+        "sub": "Modern alüminyum ve cam sistemleri ile yaşam alanlarınıza değer katıyoruz",
+        "links": "HIZLI LİNKLER",
+        "home": "Ana Sayfa",
+        "services": "Hizmetler",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "servicesCol": "Hizmetlerimiz",
+        "aluminum": "Alüminyum Kapı ve Pencere",
+        "balcony": "Balkon Kapama Sistemleri",
+        "terrace": "Teras Sistemleri",
+        "sliding": "Sürme Cam Sistemleri",
+        "maintainance": "Tamir ve Bakım"
     }
 }

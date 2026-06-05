@@ -17,13 +17,13 @@ const theme = createTheme({
     },
 
     background: {
-      default: "#F8F9FB",
+      default: "rgb(248, 249, 251)",
       paper: "#FFFFFF",
     },
 
     text: {
       primary: "#071D32",
-      secondary: "#8A919E",
+      secondary: "#5F6673",
     },
 
     divider: "#E5E7EB",
@@ -40,10 +40,6 @@ const theme = createTheme({
       800: "#1F2937",
       900: "#111827",
     },
-  },
-
-  shape: {
-    borderRadius: 16,
   },
 
   typography: {

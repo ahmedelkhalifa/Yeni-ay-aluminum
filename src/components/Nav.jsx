@@ -24,12 +24,10 @@ const Nav = (props) => {
           justifyContent: "space-between",
         }}
       >
-        <Box>
-          <Box component={"img"} src={logo} sx={{ height: "80px" }} />
+          <Box component={"img"} src={logo} sx={{ height: {xs: "50px", md: "80px"} }} />
           {/* <Typography variant="h5" sx={{ color: "text.primary" }}>
             Yeni Ay Aluminum
           </Typography> */}
-        </Box>
         <Box
           sx={{
             display: { xs: "none", md: "flex" },
@@ -173,8 +171,9 @@ const Nav = (props) => {
           sx={{
             height: "50px",
             width: "200px",
-            fontWeight: 600,
+            fontWeight: 500,
             display: { xs: "none", md: "flex" },
+            borderRadius: 3
           }}
           startIcon={<PhonelinkRing />}
         >
