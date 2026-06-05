@@ -5,9 +5,9 @@ const theme = createTheme({
     mode: "light",
 
     primary: {
-      main: "#F97316",
+      main: "#FF6B00",
       light: "#FB923C",
-      dark: "#EA580C",
+      dark: "#E85D04",
       contrastText: "#FFFFFF",
     },
 
@@ -17,13 +17,13 @@ const theme = createTheme({
     },
 
     background: {
-      default: "#e4dfdf",
+      default: "#F8F9FB",
       paper: "#FFFFFF",
     },
 
     text: {
-      primary: "#111827",
-      secondary: "#6B7280",
+      primary: "#071D32",
+      secondary: "#8A919E",
     },
 
     divider: "#E5E7EB",
