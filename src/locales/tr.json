@@ -1,49 +1,228 @@
 {
-    "nav": {
-        "home": "Ana Sayfa",
-        "services": "Hizmetler",
-        "about": "Hakkımızda",
-        "contact": "İletişim",
-        "button": "TEKLİF AL"
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "button": "TEKLİF AL"
+  },
+
+  "hero": {
+    "quoteBtn": "TEKLİF AL",
+    "contactBtn": "İLETİŞİM"
+  },
+
+  "home": {
+    "top": "ALÜMİNYUM & CAM SİSTEMLERİ",
+    "title1": "kaliteli İşçilik,",
+    "title2": "Kusursuz Sonuçlar.",
+    "sub": "Yılların deneyimiyle kapı, pencere, balkon ve teras sistemlerinde güvenilir çözümler sunuyoruz."
+  },
+
+  "features": {
+    "projects": "Tamamlanan proje",
+    "experience": "Yıllık deneyim",
+    "happy": "Müşteri memnuniyeti",
+    "support": "Müşteri desteği"
+  },
+
+  "footer": {
+    "sub": "Modern alüminyum ve cam sistemleri ile yaşam alanlarınıza değer katıyoruz",
+    "links": "HIZLI LİNKLER",
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "servicesCol": "Hizmetlerimiz",
+    "aluminum": "Alüminyum Kapı ve Pencere",
+    "balcony": "Balkon Kapama Sistemleri",
+    "terrace": "Teras Sistemleri",
+    "sliding": "Sürme Cam Sistemleri",
+    "maintainance": "Tamir ve Bakım",
+    "contactDetails": "İLETİŞİM BİLGİLERİMİZ",
+    "phone": "+90 533 829 92 57",
+    "email": "info@yeniay.com",
+    "address": "Mağusa, KKTC",
+    "copyright": "Yeni Ay Alüminyum, Tüm hakları saklıdır.",
+    "arcstack": "Web Tasarım: ArcStack"
+  },
+
+  "services": {
+    "top": "NELER YAPIYORUZ?",
+    "title": "Alüminyum ve Cam Sistemlerinde Uzman Çözümler",
+    "desc": "Konutlardan ticari projelere kadar estetik, dayanıklı be uzun ömürlü sistemler üretiyor ve uyguluyoruz.",
+    "button": "Detayları İncele",
+    "1": {
+      "name": "Alüminyum Kapı ve Pencere Sistemleri",
+      "short": "Dayanıklı ve zarif alüminyum kapı ve pencere sistemleri.",
+      "desc": "Konut ve ticari alanlar için güvenlik, enerji verimliliği ve modern bir estetik sağlamak üzere tasarlanmış dayanıklı ve zarif alüminyum kapı ve pencere sistemleri.",
+      "bullets": {
+        "1": "Isı yalıtımı",
+        "2": "Dayanıklı profiller",
+        "3": "Modern tasarım"
+      },
+      "explanation": {
+        "question": "Kapı ve Pencere Sistemleri Nedir?",
+        "answer": "Kapı ve pencere sistemleri, binalarda giriş, çıkış, havalandırma, doğal ışık alma ve yalıtım ihtiyaçlarını karşılamak amacıyla kullanılan yapı elemanlarıdır. Modern alüminyum kapı ve pencere sistemleri; dayanıklılık, enerji verimliliği, güvenlik ve estetik görünümü bir araya getirerek hem konut hem de ticari projelerde uzun ömürlü çözümler sunar."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Alüminyum kapı ve pencere sistemlerinin avantajları nelerdir?",
+          "answer": "Dayanıklılık, uzun ömür, düşük bakım ihtiyacı ve modern tasarımı bir araya getiren alüminyum sistemler, yüksek yalıtım performansı ve estetik görünüm sunar."
+        },
+        "2": {
+          "question": "Alüminyum sistemler enerji tasarrufu sağlar mı?",
+          "answer": "Evet. Isı yalıtımlı profiller ve kaliteli cam seçenekleri sayesinde iç mekan sıcaklığının korunmasına yardımcı olarak enerji verimliliğini artırır."
+        },
+        "3": {
+          "question": "Alüminyum kapı ve pencereler paslanır mı?",
+          "answer": "Hayır. Alüminyum, korozyona karşı yüksek direnç gösteren bir malzemedir. Bu sayede dış hava koşullarına karşı uzun yıllar dayanıklılığını korur."
+        },
+        "4": {
+          "question": "Projeye özel ölçü ve tasarım seçenekleri sunuyor musunuz?",
+          "answer": "Evet. İhtiyaçlarınıza ve mimari tasarıma uygun olarak farklı renk, ölçü ve model seçenekleriyle özel üretim çözümler sunuyoruz."
+        }
+      }
     },
 
-    "hero": {
-        "quoteBtn": "TEKLİF AL",
-        "contactBtn": "İLETİŞİM"
+    "2": {
+      "name": "Balkon Kapama Sistemleri",
+      "short": "Dört mevsim kullanılabilir yaşam alanları.",
+      "desc": "Dört mevsim kullanılabilir yaşam alanları oluşturmak için modern cam ve alüminyum balkon sistemleri sunuyoruz.",
+      "bullets": {
+        "1": "Daha fazla yaşam alanı",
+        "2": "Hava koşullarına karşı koruma",
+        "3": "Modern ve estetik görünüm",
+        "4": "Evin değerini artınır",
+        "5": "Düşük bakım ihtiyacı"
+      },
+      "explanation": {
+        "question": "Balkon Kapama Nedir?",
+        "answer": "Balkon kapama, açık balkon alanlarının cam, alüminyum veya özel sistemler kullanılarak dış etkenlerden korunacak şekilde kapatılması işlemidir. Bu uygulama, yaşam alanını genişletirken yağmur, rüzgar, toz ve gürültüye karşı koruma sağlar. Aynı zamanda balkonun yılın her döneminde daha konforlu ve işlevsel bir şekilde kullanılmasına olanak tanır."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Balkon kapama sistemleri hangi avantajları sağlar?",
+          "answer": "Balkon kapama sistemleri, yaşam alanınızı genişleterek balkonunuzu dört mevsim kullanabilmenizi sağlar. Ayrıca yağmur, rüzgar, toz ve gürültüye karşı koruma sunarken enerji verimliliğine de katkıda bulunur."
+        },
+        "2": {
+          "question": "Balkon kapama sistemlerinde hangi malzemeler kullanılır?",
+          "answer": "Balkon kapama uygulamalarında genellikle temperli cam, alüminyum profiller ve yüksek kaliteli aksesuarlar kullanılır. Bu malzemeler uzun ömürlü, güvenli ve estetik çözümler sunar."
+        },
+        "3": {
+          "question": "Balkon kapama işlemi ne kadar sürer?",
+          "answer": "Projenin büyüklüğüne ve tercih edilen sisteme bağlı olarak değişmekle birlikte, ölçü alma ve üretim sürecinin ardından montaj işlemi genellikle kısa sürede tamamlanır."
+        },
+        "4": {
+          "question": "Balkon kapama sistemleri bakım gerektirir mi?",
+          "answer": "Balkon kapama sistemleri minimum bakım gerektirir. Cam yüzeylerin düzenli temizlenmesi ve hareketli parçaların periyodik kontrol edilmesi, sistemin uzun yıllar sorunsuz kullanılmasını sağlar."
+        }
+      }
     },
 
-    "home": {
-        "top": "ALÜMİNYUM & CAM SİSTEMLERİ",
-        "title1": "kaliteli İşçilik,",
-        "title2": "Kusursuz Sonuçlar.",
-        "sub": "Yılların deneyimiyle kapı, pencere, balkon ve teras sistemlerinde güvenilir çözümler sunuyoruz."
+    "3": {
+      "name": "Teras Sistemleri",
+      "short": "Şık ve fonksiyonel dış mekan çözümleri.",
+      "desc": "Modern teras sistemleri, açık alanları hava koşullarından koruyarak yıl boyunca konforlu ve estetik yaşam alanlarına dönüştüren dayanıklı çözümler sunar.",
+      "bullets": {
+        "1": "Maksimum konfor ve koruma",
+        "2": "Şık ve modern görünüm",
+        "3": "Uzun ömürlü malzeme kalitesi",
+        "4": "Hava koşullarına karşı yüksek dayanım",
+        "5": "Doğal ışığı koruyan tasarım"
+      },
+      "explanation": {
+        "question": "Teras Sistemleri Nedir?",
+        "answer": "Teras sistemleri, açık teras alanlarını güneş, yağmur, rüzgar ve diğer dış etkenlerden koruyarak daha konforlu ve işlevsel hale getiren yapı çözümleridir. Alüminyum ve cam sistemlerle uygulanan teras kapama çözümleri, yaşam alanlarını genişletirken estetik görünüm ve uzun ömürlü kullanım avantajı sunar."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Teras sistemleri hangi alanlarda kullanılabilir?",
+          "answer": "Teras sistemleri; konutlar, villalar, restoranlar, kafeler, oteller ve ticari işletmeler gibi birçok farklı mekânda kullanılabilir. Açık alanları daha konforlu ve işlevsel hale getirir."
+        },
+        "2": {
+          "question": "Teras sistemleri hava koşullarına dayanıklı mıdır?",
+          "answer": "Evet. Kaliteli alüminyum ve cam malzemeler kullanılarak üretilen teras sistemleri, yağmur, rüzgar, güneş ve diğer dış etkenlere karşı yüksek dayanıklılık sağlar."
+        },
+        "3": {
+          "question": "Teras sistemleri doğal ışığı engeller mi?",
+          "answer": "Hayır. Cam ağırlıklı tasarımı sayesinde doğal ışığın iç mekâna ulaşmasını sağlar ve ferah bir yaşam alanı sunar."
+        },
+        "4": {
+          "question": "Teras sistemleri projeye özel üretilebilir mi?",
+          "answer": "Evet. Terasın ölçülerine, kullanım amacına ve mimari yapısına uygun olarak farklı model, renk ve tasarım seçenekleriyle özel üretim yapılabilir."
+        }
+      }
     },
 
-    "features": {
-        "projects": "Tamamlanan proje",
-        "experience": "Yıllık deneyim",
-        "happy": "Müşteri memnuniyeti",
-        "support": "Müşteri desteği"
+    "4": {
+      "name": "Sürme Cam Sistemleri",
+      "short": "Modern ve kullanışlı cam çözümleri.",
+      "desc": "Sürme cam sistemleri, geniş görüş açısı ve kolay kullanım sunarak yaşam alanlarını daha ferah, estetik ve fonksiyonel hale getiren modern cam çözümleridir.",
+      "bullets": {
+        "1": "Geniş ve kesintisiz manzara",
+        "2": "Kolay açma ve kapama mekanizması",
+        "3": "Modern ve şık görünüm",
+        "4": "Maksimum doğal ışık kullanımı",
+        "5": "Dayanıklı ve uzun ömürlü yapı"
+      },
+      "explanation": {
+        "question": "Sürme Cam Sistemleri Nedir?",
+        "answer": "Sürme cam sistemleri, cam panellerin raylar üzerinde yatay olarak hareket ettiği modern camlama çözümleridir. Balkon, teras, kış bahçesi ve ticari alanlarda kullanılan bu sistemler, mekanlara estetik bir görünüm kazandırırken kullanım kolaylığı ve konfor sağlar."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Sürme cam sistemleri hangi alanlarda kullanılabilir?",
+          "answer": "Sürme cam sistemleri balkonlar, teraslar, kış bahçeleri, restoranlar, kafeler ve ticari mekanlar dahil birçok farklı alanda kullanılabilir."
+        },
+        "2": {
+          "question": "Sürme cam sistemleri hava koşullarına karşı dayanıklı mıdır?",
+          "answer": "Evet. Kaliteli cam ve alüminyum profillerden üretilen sürme cam sistemleri, yağmur, rüzgar ve diğer dış etkenlere karşı yüksek dayanıklılık sağlar."
+        },
+        "3": {
+          "question": "Sürme cam sistemleri doğal ışığı engeller mi?",
+          "answer": "Hayır. Geniş cam yüzeyleri sayesinde doğal ışığın maksimum seviyede iç mekana ulaşmasına olanak tanır ve ferah bir ortam oluşturur."
+        },
+        "4": {
+          "question": "Sürme cam sistemleri bakım gerektirir mi?",
+          "answer": "Sürme cam sistemleri minimum bakım gerektirir. Rayların temiz tutulması ve cam yüzeylerin düzenli temizlenmesi sistemin uzun yıllar sorunsuz çalışmasını sağlar."
+        }
+      }
     },
 
-    "footer": {
-        "sub": "Modern alüminyum ve cam sistemleri ile yaşam alanlarınıza değer katıyoruz",
-        "links": "HIZLI LİNKLER",
-        "home": "Ana Sayfa",
-        "services": "Hizmetler",
-        "about": "Hakkımızda",
-        "contact": "İletişim",
-        "servicesCol": "Hizmetlerimiz",
-        "aluminum": "Alüminyum Kapı ve Pencere",
-        "balcony": "Balkon Kapama Sistemleri",
-        "terrace": "Teras Sistemleri",
-        "sliding": "Sürme Cam Sistemleri",
-        "maintainance": "Tamir ve Bakım",
-        "contactDetails": "İLETİŞİM BİLGİLERİMİZ",
-        "phone": "+90 533 829 92 57",
-        "email": "info@yeniay.com",
-        "address": "Mağusa, KKTC",
-        "copyright": "Yeni Ay Alüminyum, Tüm hakları saklıdır.",
-        "arcstack": "Web Tasarım: ArcStack"
+    "5": {
+      "name": "Tamirat & Bakım",
+      "short": "Profesyonel bakım ve onarım hizmetleri.",
+      "desc": "Kapı, pencere, cam ve alüminyum sistemlerinizin performansını korumak için uzman bakım ve tamirat hizmetleri sunuyor, uzun ömürlü kullanım sağlıyoruz.",
+      "bullets": {
+        "1": "Hızlı ve güvenilir servis",
+        "2": "Uzman teknik ekip",
+        "3": "Sistem performansını artırır",
+        "4": "Uzun ömürlü kullanım sağlar",
+        "5": "Orijinal parça ve kaliteli işçilik"
+      },
+      "explanation": {
+        "question": "Tamirat & Bakım Nedir?",
+        "answer": "Tamirat ve bakım hizmetleri, alüminyum doğrama, cam sistemleri, balkon kapama, teras sistemleri ve diğer yapı elemanlarının düzenli kontrol, onarım ve bakım işlemlerini kapsar. Bu hizmetler sayesinde sistemlerin güvenliği, performansı ve kullanım ömrü artırılır."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Hangi sistemler için bakım ve tamirat hizmeti sunuyorsunuz?",
+          "answer": "Kapı ve pencere sistemleri, sürme cam sistemleri, balkon kapama sistemleri, teras sistemleri ve diğer alüminyum yapı çözümleri için bakım ve onarım hizmeti sunuyoruz."
+        },
+        "2": {
+          "question": "Bakım hizmeti ne sıklıkla yapılmalıdır?",
+          "answer": "Kullanım yoğunluğuna ve sistem türüne bağlı olarak değişmekle birlikte, sistemlerin yılda en az bir kez kontrol edilmesi önerilir."
+        },
+        "3": {
+          "question": "Arızalanan parçalar değiştirilebilir mi?",
+          "answer": "Evet. Hasar gören veya işlevini kaybeden parçalar, uygun yedek parçalar kullanılarak profesyonel şekilde değiştirilebilir."
+        },
+        "4": {
+          "question": "Bakım hizmeti sistemlerin ömrünü uzatır mı?",
+          "answer": "Evet. Düzenli bakım ve zamanında yapılan onarımlar, sistemlerin daha verimli çalışmasını sağlayarak kullanım ömrünü önemli ölçüde artırır."
+        }
+      }
     }
+  }
 }

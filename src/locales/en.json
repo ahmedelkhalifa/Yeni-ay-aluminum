@@ -1,49 +1,228 @@
 {
-    "nav": {
-        "home": "Home",
-        "services": "Services",
-        "about": "About Us",
-        "contact": "Contact Us",
-        "button": "QUOTE NOW"
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "button": "QUOTE NOW"
+  },
+
+  "hero": {
+    "quoteBtn": "QUOTE NOW",
+    "contactBtn": "CONTACT US"
+  },
+
+  "home": {
+    "top": "ALUMINUM & WINDOWS WORK",
+    "title1": "Quality Work,",
+    "title2": "Perfect Results.",
+    "sub": "With years of experience, we provide trustable solutions regardin doors, windows, and terrace systems."
+  },
+
+  "features": {
+    "projects": "Completed projects",
+    "experience": "Years of experience",
+    "happy": "Happy customers",
+    "support": "Customer support"
+  },
+
+  "footer": {
+    "sub": "We add value to your living spaces with modern aluminum and glass systems",
+    "links": "QUICK LINKS",
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "servicesCol": "OUR SERVICES",
+    "aluminum": "Aluminum Doors & Windows",
+    "balcony": "Balcony Closing Systems",
+    "terrace": "Terrace Systems",
+    "sliding": "Sliding Windows Systems",
+    "maintainance": "Repair and Maintenance",
+    "contactDetails": "CONTACT DETAILS",
+    "phone": "+90 533 829 92 57",
+    "email": "info@yeniay.com",
+    "address": "Mağusa, KKTC",
+    "copyright": "Yeni Ay Alüminyum, All rights presereved.",
+    "arcstack": "Web Design: ArcStack"
+  },
+
+  "services": {
+    "top": "WHAT WE DO?",
+    "title": "Expert Solutions in Aluminum and Glass Systems",
+    "desc": "We produce and implement aesthetic, durable and long-lasting systems from residences to commercial projects.",
+    "button": "See Details",
+    "1": {
+      "name": "Aluminum Door and Window Systems",
+      "short": "Durable and elegant aluminum door and window systems",
+      "desc": "Durable and elegant aluminum door and window systems designed to provide safety, energy efficiency and a modern aesthetic for residential and commercial spaces.",
+      "bullets": {
+        "1": "Thermal insulation",
+        "2": "Durable profiles",
+        "3": "Modern design"
+      },
+      "explanation": {
+        "question": "What are Door and Window Systems?",
+        "answer": "Door and window systems are structural elements used in buildings to meet entrance, exit, ventilation, natural light receiving and insulation needs. Modern aluminum door and window systems; It offers long-lasting solutions in both residential and commercial projects by combining durability, energy efficiency, security and aesthetic appearance."
+      },
+      "FAQs": {
+        "1": {
+          "question": "What are the advantages of aluminum door and window systems?",
+          "answer": "Combining durability, long life, low maintenance and modern design, aluminum systems offer high insulation performance and aesthetic appearance."
+        },
+        "2": {
+          "question": "Do aluminum systems save energy?",
+          "answer": "Yes. Thanks to thermally insulated profiles and quality glass options, it helps maintain indoor temperature and increases energy efficiency."
+        },
+        "3": {
+          "question": "Do aluminum doors and windows rust?",
+          "answer": "No. Aluminum is a material with high resistance to corrosion. In this way, it maintains its resistance to outdoor weather conditions for many years."
+        },
+        "4": {
+          "question": "Do you offer project-specific size and design options?",
+          "answer": "Yes. We offer special production solutions with different color, size and model options to suit your needs and architectural design."
+        }
+      }
     },
 
-    "hero": {
-        "quoteBtn": "QUOTE NOW",
-        "contactBtn": "CONTACT US"
+    "2": {
+      "name": "Balcony Closing Systems",
+      "short": "All-season living spaces.",
+      "desc": "We offer modern glass and aluminum balcony systems to create four-season living spaces.",
+      "bullets": {
+        "1": "More living space",
+        "2": "Weather protection",
+        "3": "Modern and aesthetic appearance",
+        "4": "The value of the house increases",
+        "5": "Low maintenance need"
+      },
+      "explanation": {
+        "question": "What is Balcony Closing?",
+        "answer": "Balcony closing is the process of closing open balcony areas using glass, aluminum or special systems to protect them from external factors. This application provides protection against rain, wind, dust and noise while expanding the habitat. It also allows the balcony to be used more comfortably and functionally at any time of the year."
+      },
+      "FAQs": {
+        "1": {
+          "question": "What advantages do balcony closing systems provide?",
+          "answer": "Balcony closing systems expand your living space and allow you to use your balcony in all seasons. It also contributes to energy efficiency while offering protection against rain, wind, dust and noise."
+        },
+        "2": {
+          "question": "What materials are used in balcony closing systems?",
+          "answer": "Tempered glass, aluminum profiles and high-quality accessories are generally used in balcony covering applications. These materials provide long-lasting, safe and aesthetic solutions."
+        },
+        "3": {
+          "question": "How long does the balcony closing process take?",
+          "answer": "Although it varies depending on the size of the project and the preferred system, the measurement and production process is usually completed in a short time."
+        },
+        "4": {
+          "question": "Do balcony closing systems require maintenance?",
+          "answer": "Balcony closing systems require minimal maintenance. Regular cleaning of glass surfaces and periodic checking of moving parts ensure trouble-free use of the system for many years."
+        }
+      }
     },
 
-    "home": {
-        "top": "ALUMINUM & WINDOWS WORK",
-        "title1": "Quality Work,",
-        "title2": "Perfect Results.",
-        "sub": "With years of experience, we provide trustable solutions regardin doors, windows, and terrace systems."
+    "3": {
+      "name": "Terrace Systems",
+      "short": "Stylish and functional outdoor solutions.",
+      "desc": "Modern terrace systems offer durable solutions that protect open spaces from weather conditions and turn them into comfortable and aesthetic living spaces throughout the year.",
+      "bullets": {
+        "1": "Maximum comfort and protection",
+        "2": "Stylish and modern appearance",
+        "3": "Long-lasting material quality",
+        "4": "High resistance to weather conditions",
+        "5": "Design that protects natural light"
+      },
+      "explanation": {
+        "question": "What are Terrace Systems?",
+        "answer": "Terrace systems are building solutions that protect open terrace areas from sun, rain, wind and other external factors, making them more comfortable and functional. Terrace covering solutions applied with aluminum and glass systems offer the advantage of aesthetic appearance and long-lasting use while expanding living spaces."
+      },
+      "FAQs": {
+        "1": {
+          "question": "In which areas can terrace systems be used?",
+          "answer": "Terrace systems; It can be used in many different places such as residences, villas, restaurants, cafes, hotels and commercial enterprises. It makes open spaces more comfortable and functional."
+        },
+        "2": {
+          "question": "Are terrace systems weather resistant?",
+          "answer": "Yes. Terrace systems produced using quality aluminum and glass materials provide high resistance to rain, wind, sun and other external factors."
+        },
+        "3": {
+          "question": "Do terrace systems block natural light?",
+          "answer": "No. Thanks to its glass-heavy design, it allows natural light to reach the interior and offers a spacious living space."
+        },
+        "4": {
+          "question": "Can terrace systems be produced specifically for the project?",
+          "answer": "Yes. Special production can be made with different models, colors and design options in accordance with the dimensions, intended use and architectural structure of the terrace."
+        }
+      }
     },
 
-    "features": {
-        "projects": "Completed projects",
-        "experience": "Years of experience",
-        "happy": "Happy customers",
-        "support": "Customer support"
+    "4": {
+      "name": "Sliding Glass Systems",
+      "short": "Modern and practical glass solutions.",
+      "desc": "Sliding glass systems provide wide views and effortless operation, transforming living spaces into brighter, more elegant, and highly functional environments.",
+      "bullets": {
+        "1": "Wide and uninterrupted views",
+        "2": "Smooth and easy operation",
+        "3": "Modern and elegant appearance",
+        "4": "Maximum natural light",
+        "5": "Durable and long-lasting construction"
+      },
+      "explanation": {
+        "question": "What Are Sliding Glass Systems?",
+        "answer": "Sliding glass systems are modern glazing solutions where glass panels move horizontally along specially designed tracks. Commonly used in balconies, terraces, winter gardens, and commercial spaces, these systems combine aesthetics, comfort, and ease of use while maximizing openness and visibility."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Where can sliding glass systems be used?",
+          "answer": "Sliding glass systems are suitable for balconies, terraces, winter gardens, restaurants, cafés, commercial spaces, and many other indoor and outdoor applications."
+        },
+        "2": {
+          "question": "Are sliding glass systems resistant to weather conditions?",
+          "answer": "Yes. Manufactured with high-quality glass and aluminum profiles, sliding glass systems offer excellent resistance to rain, wind, and other environmental conditions."
+        },
+        "3": {
+          "question": "Do sliding glass systems block natural light?",
+          "answer": "No. Their large glass surfaces allow maximum daylight to enter the space, creating a bright and welcoming atmosphere."
+        },
+        "4": {
+          "question": "Do sliding glass systems require maintenance?",
+          "answer": "Sliding glass systems require minimal maintenance. Regular cleaning of the glass panels and track systems helps ensure smooth operation and long-lasting performance."
+        }
+      }
     },
 
-    "footer": {
-        "sub": "We add value to your living spaces with modern aluminum and glass systems",
-        "links": "QUICK LINKS",
-        "home": "Home",
-        "services": "Services",
-        "about": "About Us",
-        "contact": "Contact Us",
-        "servicesCol": "OUR SERVICES",
-        "aluminum": "Aluminum Doors & Windows",
-        "balcony": "Balcony Closing Systems",
-        "terrace": "Terrace Systems",
-        "sliding": "Sliding Windows Systems",
-        "maintainance": "Repair and Maintenance",
-        "contactDetails": "CONTACT DETAILS",
-        "phone": "+90 533 829 92 57",
-        "email": "info@yeniay.com",
-        "address": "Mağusa, KKTC",
-        "copyright": "Yeni Ay Alüminyum, All rights presereved.",
-        "arcstack": "Web Design: ArcStack"
+    "5": {
+      "name": "Repair & Maintenance",
+      "short": "Professional maintenance and repair services.",
+      "desc": "We provide expert maintenance and repair services to keep your doors, windows, glass, and aluminum systems operating efficiently and reliably for years to come.",
+      "bullets": {
+        "1": "Fast and reliable service",
+        "2": "Experienced technical team",
+        "3": "Improves system performance",
+        "4": "Extends product lifespan",
+        "5": "Quality workmanship and genuine parts"
+      },
+      "explanation": {
+        "question": "What Is Repair & Maintenance?",
+        "answer": "Repair and maintenance services include the inspection, servicing, adjustment, and repair of aluminum systems, glass structures, balcony enclosures, terrace systems, and other architectural solutions. These services help ensure safety, efficiency, and long-term performance."
+      },
+      "FAQs": {
+        "1": {
+          "question": "Which systems do you provide maintenance and repair services for?",
+          "answer": "We provide maintenance and repair services for doors and windows, sliding glass systems, balcony enclosures, terrace systems, and other aluminum construction solutions."
+        },
+        "2": {
+          "question": "How often should maintenance be performed?",
+          "answer": "The frequency depends on usage and system type, but we generally recommend having systems inspected at least once a year."
+        },
+        "3": {
+          "question": "Can damaged parts be replaced?",
+          "answer": "Yes. Worn or damaged components can be professionally replaced using suitable replacement parts to restore functionality and performance."
+        },
+        "4": {
+          "question": "Does regular maintenance extend the lifespan of the systems?",
+          "answer": "Yes. Regular maintenance and timely repairs help systems operate more efficiently and significantly increase their lifespan."
+        }
+      }
     }
+  }
 }

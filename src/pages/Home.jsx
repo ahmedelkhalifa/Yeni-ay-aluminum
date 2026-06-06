@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import heroImg from "../assets/Hero.webp";
 import FeaturesPaper from "./../components/FeaturesPaper";
 import Footer from "./../components/Footer";
+import Services from './Services';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -47,6 +48,9 @@ const Home = () => {
             </Container>
           </Box>
         </Box>
+      </Box>
+      <Box sx={{mb: "100px"}} id="services">
+        <Services />
       </Box>
       <Footer />
     </>
