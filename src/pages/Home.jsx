@@ -20,7 +20,7 @@ const Home = () => {
             display: "flex",
             flexDirection: "column",
             height: "100%",
-            gap: 3,
+            gap: 0,
           }}
         >
           <Nav active="home" />
@@ -38,7 +38,8 @@ const Home = () => {
             sx={{
               flex: 1,
               position: "relative",
-              top: { xs: 0, md: -20, lg: -60, zIndex: 100 },
+              top: { xs: 0, md: -20, lg: -50, zIndex: 100 },
+              mt: {xs: 10, md: 0}
             }}
           >
             <Container maxWidth="lg">

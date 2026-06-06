@@ -24,5 +24,26 @@
         "experience": "Years of experience",
         "happy": "Happy customers",
         "support": "Customer support"
+    },
+
+    "footer": {
+        "sub": "We add value to your living spaces with modern aluminum and glass systems",
+        "links": "QUICK LINKS",
+        "home": "Home",
+        "services": "Services",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "servicesCol": "OUR SERVICES",
+        "aluminum": "Aluminum Doors & Windows",
+        "balcony": "Balcony Closing Systems",
+        "terrace": "Terrace Systems",
+        "sliding": "Sliding Windows Systems",
+        "maintainance": "Repair and Maintenance",
+        "contactDetails": "CONTACT DETAILS",
+        "phone": "+90 533 829 92 57",
+        "email": "info@yeniay.com",
+        "address": "Mağusa, KKTC",
+        "copyright": "Yeni Ay Alüminyum, All rights presereved.",
+        "arcstack": "Web Design: ArcStack"
     }
 }
