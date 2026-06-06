@@ -245,5 +245,29 @@
             "desc": "We deliver your projects within the promised time"
         }
     }
+  },
+
+  "steps": {
+    "title": "OUR WORKING PROCESS",
+    "1": {
+        "title": "Inspection",
+        "desc": "We determine your needs with free inspections"
+    },
+    "2": {
+        "title": "Measurments",
+        "desc": "We take professional measurements"
+    },
+    "3": {
+        "title": "Production",
+        "desc": "We produce with quality materials"
+    },
+    "4": {
+        "title": "Assembly",
+        "desc": "We provide clean and fast assembly with our expert team"
+    },
+    "5": {
+        "title": "Delivery",
+        "desc": "We make the delivery after the checks"
+    }
   }
 }

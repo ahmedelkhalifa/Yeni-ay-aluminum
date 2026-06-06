@@ -11,10 +11,13 @@ import i18next from "i18next";
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const Nav = (props) => {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
   return (
     <Box sx={{ width: "100%", py: 1, bgcolor: "background.paper" }}>
       <Container
@@ -24,8 +27,12 @@ const Nav = (props) => {
           justifyContent: "space-between",
         }}
       >
-          <Box component={"img"} src={logo} sx={{ height: {xs: "50px", md: "80px"} }} />
-          {/* <Typography variant="h5" sx={{ color: "text.primary" }}>
+        <Box
+          component={"img"}
+          src={logo}
+          sx={{ height: { xs: "50px", md: "80px" } }}
+        />
+        {/* <Typography variant="h5" sx={{ color: "text.primary" }}>
             Yeni Ay Aluminum
           </Typography> */}
         <Box
@@ -37,13 +44,14 @@ const Nav = (props) => {
         >
           <Typography
             variant="h6"
-            component="a"
-            href="#home"
+            component="div"
+            onClick={() => navigate("/#home")}
             sx={{
               color: props.active === "home" ? "primary.main" : "text.primary",
               position: "relative",
               textDecoration: "none",
               transition: "all 0.3s ease",
+              cursor: "pointer",
               "&:hover": { color: "primary.main" },
               "&::after":
                 props.active === "home"
@@ -63,14 +71,15 @@ const Nav = (props) => {
           </Typography>
           <Typography
             variant="h6"
-            component="a"
-            href="#services"
+            component="div"
+            onClick={() => navigate("/#services")}
             sx={{
               color:
                 props.active === "services" ? "primary.main" : "text.primary",
               position: "relative",
               textDecoration: "none",
               transition: "all 0.3s ease",
+              cursor: "pointer",
               "&:hover": { color: "primary.main" },
               "&::after":
                 props.active === "services"
@@ -90,12 +99,13 @@ const Nav = (props) => {
           </Typography>
           <Typography
             variant="h6"
-            component="a"
-            href="#about"
+            component="div"
+            onClick={() => navigate("/about")}
             sx={{
               color: props.active === "about" ? "primary.main" : "text.primary",
               position: "relative",
               textDecoration: "none",
+              cursor: "pointer",
               transition: "all 0.3s ease",
               "&:hover": { color: "primary.main" },
               "&::after":
@@ -116,13 +126,14 @@ const Nav = (props) => {
           </Typography>
           <Typography
             variant="h6"
-            component="a"
-            href="#contact"
+            component="div"
+            onClick={() => navigate("/contact")}
             sx={{
               color:
                 props.active === "contact" ? "primary.main" : "text.primary",
               position: "relative",
               textDecoration: "none",
+              cursor: "pointer",
               transition: "all 0.3s ease",
               "&:hover": { color: "primary.main" },
               "&::after":
@@ -173,7 +184,7 @@ const Nav = (props) => {
             width: "200px",
             fontWeight: 500,
             display: { xs: "none", md: "flex" },
-            borderRadius: 1
+            borderRadius: 1,
           }}
           startIcon={<PhonelinkRing />}
         >
@@ -211,13 +222,14 @@ const Nav = (props) => {
             </Box>
             <Typography
               variant="h6"
-              component="a"
-              href="#home"
+              component="div"
+              onClick={() => navigate("/#home")}
               onClick={() => setOpen(false)}
               sx={{
                 color:
                   props.active === "home" ? "primary.main" : "text.primary",
                 position: "relative",
+                cursor: "pointer",
                 textDecoration: "none",
                 transition: "all 0.3s ease",
                 "&:hover": { color: "primary.main" },
@@ -239,14 +251,15 @@ const Nav = (props) => {
             </Typography>
             <Typography
               variant="h6"
-              component="a"
+              component="div"
+              onClick={() => navigate("/#services")}
               onClick={() => setOpen(false)}
-              href="#services"
               sx={{
                 color:
                   props.active === "services" ? "primary.main" : "text.primary",
                 position: "relative",
                 textDecoration: "none",
+                cursor: "pointer",
                 transition: "all 0.3s ease",
                 "&:hover": { color: "primary.main" },
                 "&::after":
@@ -267,14 +280,15 @@ const Nav = (props) => {
             </Typography>
             <Typography
               variant="h6"
-              component="a"
+              component="div"
+              onClick={() => navigate("/about")}
               onClick={() => setOpen(false)}
-              href="#about"
               sx={{
                 color:
                   props.active === "about" ? "primary.main" : "text.primary",
                 position: "relative",
                 textDecoration: "none",
+                cursor: "pointer",
                 transition: "all 0.3s ease",
                 "&:hover": { color: "primary.main" },
                 "&::after":
@@ -295,14 +309,15 @@ const Nav = (props) => {
             </Typography>
             <Typography
               variant="h6"
-              component="a"
+              component="div"
+              onClick={() => navigate("/contact")}
               onClick={() => setOpen(false)}
-              href="#contact"
               sx={{
                 color:
                   props.active === "contact" ? "primary.main" : "text.primary",
                 position: "relative",
                 textDecoration: "none",
+                cursor: "pointer",
                 transition: "all 0.3s ease",
                 "&:hover": { color: "primary.main" },
                 "&::after":

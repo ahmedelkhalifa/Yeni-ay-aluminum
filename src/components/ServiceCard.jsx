@@ -3,7 +3,7 @@ import { getServices } from "../data/services";
 import { Box, Button, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { East } from "@mui/icons-material";
-import { useNavigate } from "react-router-dom";
+import { replace, useNavigate } from "react-router-dom";
 
 const ServiceCard = (props) => {
   const { t } = useTranslation();
@@ -56,17 +56,23 @@ const ServiceCard = (props) => {
         transition: "0.3s ease",
 
         "&:hover": {
-            transform: "translateY(-5px)"
+          transform: "translateY(-5px)",
         },
 
         display: "flex",
         alignItems: "flex-end",
       }}
-      component={"label"}
-      onClick={() => navigate(`/services/${service.id}`)}
+      component={"div"}
+      onClick={() => {
+        console.count("card click");
+        navigate(`/services/${service.id}`);
+      }}
     >
       <Box
-        sx={{ width: { xs: "100%", md: service.id === 1 ? "50%" : "100%" }, zIndex: 10 }}
+        sx={{
+          width: { xs: "100%", md: service.id === 1 ? "50%" : "100%" },
+          zIndex: 10,
+        }}
       >
         <Box
           sx={{
@@ -111,25 +117,28 @@ const ServiceCard = (props) => {
             position: "relative",
             transition: "all 0.3s ease",
             "&::before": {
-                content: '""',
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "0%",
-                height: "100%",
-                bgcolor: "background.default",
-                zIndex: -1,
-                transition: "all 0.3s ease"
+              content: '""',
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "0%",
+              height: "100%",
+              bgcolor: "background.default",
+              zIndex: -1,
+              transition: "all 0.3s ease",
             },
             "&:hover::before": {
-                width: "100%"
+              width: "100%",
             },
             "&:hover": {
-                color: "text.primary"
-            }
+              color: "text.primary",
+            },
           }}
           endIcon={<East />}
-          onClick={() => navigate(`/services/${service.id}`)}
+          onClick={(e) => {
+            e.stopPropagation();
+            navigate(`/services/${service.id}`);
+          }}
         >
           {t("services.button")}
         </Button>

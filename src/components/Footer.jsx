@@ -432,7 +432,7 @@ const Footer = () => {
             variant="body1"
             sx={{ fontSize: 14, fontWeight: 500, color: "background.default" }}
           >
-            &copy; {new Date().getFullYear} {t("footer.copyright")}
+            &copy; {new Date().getFullYear()} {t("footer.copyright")}
           </Typography>
           <Typography
             variant="body1"

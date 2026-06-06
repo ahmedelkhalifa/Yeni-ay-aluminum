@@ -46,8 +46,7 @@ const Hero = (props) => {
           py: { xs: 0, md: 0 },
         }}
       >
-        <Typography
-          variant="body1"
+        <Box
           sx={{
             fontSize: 16,
             color: "primary.main",
@@ -67,7 +66,7 @@ const Hero = (props) => {
           }}
         >
           {props.top}
-        </Typography>
+        </Box>
         <Box>
           <Typography
             variant="h1"

@@ -245,5 +245,29 @@
             "desc": "Projelerinizi taahhüt edilen sürede teslim ediyoruz"
         }
     }
+  },
+
+  "steps": {
+    "title": "ÇALIŞMA SÜRECİMİZ",
+    "1": {
+        "title": "Keşif",
+        "desc": "Ücretsiz keşif ile ihtiyaçlarınızı beliriyoruz"
+    },
+    "2": {
+        "title": "Ölçülendirme",
+        "desc": "Profesiyonel ölçü alımı gerçekleştiriyoruz"
+    },
+    "3": {
+        "title": "Üretim",
+        "desc": "Kaliteli malzemelerle üretimi yapıyoruz"
+    },
+    "4": {
+        "title": "Montaj",
+        "desc": "Uzman ekibimizle temiz ve hızlı montaj sağlıyoruz"
+    },
+    "5": {
+        "title": "Teslimat",
+        "desc": "Kontroller sonrası teslimatı gerçekleştiriyoruz"
+    }
   }
 }

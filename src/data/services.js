@@ -56,6 +56,8 @@ export const getServices = (t) => [
       t("services.2.bullets.1"),
       t("services.2.bullets.2"),
       t("services.2.bullets.3"),
+      t("services.2.bullets.4"),
+      t("services.2.bullets.5"),
     ],
     explanation: {
       question: t("services.2.explanation.question"),
@@ -91,6 +93,8 @@ export const getServices = (t) => [
       t("services.3.bullets.1"),
       t("services.3.bullets.2"),
       t("services.3.bullets.3"),
+      t("services.3.bullets.4"),
+      t("services.3.bullets.5"),
     ],
     explanation: {
       question: t("services.3.explanation.question"),
@@ -126,6 +130,8 @@ export const getServices = (t) => [
       t("services.4.bullets.1"),
       t("services.4.bullets.2"),
       t("services.4.bullets.3"),
+      t("services.4.bullets.4"),
+      t("services.4.bullets.5"),
     ],
     explanation: {
       question: t("services.4.explanation.question"),
@@ -161,6 +167,8 @@ export const getServices = (t) => [
       t("services.5.bullets.1"),
       t("services.5.bullets.2"),
       t("services.5.bullets.3"),
+      t("services.5.bullets.4"),
+      t("services.5.bullets.5"),
     ],
     explanation: {
       question: t("services.5.explanation.question"),
