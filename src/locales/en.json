@@ -224,5 +224,26 @@
         }
       }
     }
+  },
+
+  "cta": {
+    "card": {
+        "1": {
+            "title": "Free Inspection",
+            "desc": "On-site inspection and professional consultancy"
+        },
+        "2": {
+            "title": "Guaranteed Workmanship",
+            "desc": "Workmanship guarantee on all our applications"
+        },
+        "3": {
+            "title": "Quality Material",
+            "desc": "Long-lasting, durable and high-quality material use"
+        },
+        "4": {
+            "title": "On-time Delivery",
+            "desc": "We deliver your projects within the promised time"
+        }
+    }
   }
 }

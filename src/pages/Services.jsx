@@ -2,6 +2,7 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import ServiceCard from "../components/ServiceCard";
+import CTACard from "../components/CTACard";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -66,6 +67,7 @@ const Services = () => {
             <ServiceCard id={5} />
           </Grid>
         </Grid>
+        <CTACard />
       </Container>
     </Box>
   );

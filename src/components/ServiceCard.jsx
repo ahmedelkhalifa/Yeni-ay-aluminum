@@ -17,6 +17,7 @@ const ServiceCard = (props) => {
         height: "100%",
         p: 2,
         px: 3,
+        pb: 3,
         position: "relative",
         overflow: "hidden",
         borderRadius: 3,
@@ -107,6 +108,25 @@ const ServiceCard = (props) => {
             color: "background.default",
             borderColor: "background.default",
             display: { xs: "flex", md: service.id === 1 ? "flex" : "none" },
+            position: "relative",
+            transition: "all 0.3s ease",
+            "&::before": {
+                content: '""',
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "0%",
+                height: "100%",
+                bgcolor: "background.default",
+                zIndex: -1,
+                transition: "all 0.3s ease"
+            },
+            "&:hover::before": {
+                width: "100%"
+            },
+            "&:hover": {
+                color: "text.primary"
+            }
           }}
           endIcon={<East />}
           onClick={() => navigate(`/services/${service.id}`)}

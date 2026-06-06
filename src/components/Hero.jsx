@@ -126,7 +126,7 @@ const Hero = (props) => {
               width: "200px",
               height: "50px",
               fontWeight: 500,
-              borderRadius: 3,
+              borderRadius: 0,
             }}
             startIcon={<PhonelinkRing />}
           >
@@ -138,7 +138,7 @@ const Hero = (props) => {
               width: "200px",
               height: "50px",
               fontWeight: 500,
-              borderRadius: 3,
+              borderRadius: 0,
               borderWidth: 2,
               borderColor: "grey.400",
               color: "text.primary",

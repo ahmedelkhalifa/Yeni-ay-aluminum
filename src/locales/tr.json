@@ -224,5 +224,26 @@
         }
       }
     }
+  },
+
+  "cta": {
+    "card": {
+        "1": {
+            "title": "Ücretsiz Keşif",
+            "desc": "Yerinde keşif ve profesyonel danışmanlık"
+        },
+        "2": {
+            "title": "Garantili İşçilik",
+            "desc": "Tüm uygulamalarımızda işçilik garantisi"
+        },
+        "3": {
+            "title": "Kaliteli Malzeme",
+            "desc": "Uzun ömürlü, dayanıklı ve kaliteli malzeme kullanımı"
+        },
+        "4": {
+            "title": "Zamanında Teslim",
+            "desc": "Projelerinizi taahhüt edilen sürede teslim ediyoruz"
+        }
+    }
   }
 }

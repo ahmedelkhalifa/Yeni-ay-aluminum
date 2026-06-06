@@ -173,7 +173,7 @@ const Nav = (props) => {
             width: "200px",
             fontWeight: 500,
             display: { xs: "none", md: "flex" },
-            borderRadius: 3
+            borderRadius: 1
           }}
           startIcon={<PhonelinkRing />}
         >
@@ -213,6 +213,7 @@ const Nav = (props) => {
               variant="h6"
               component="a"
               href="#home"
+              onClick={() => setOpen(false)}
               sx={{
                 color:
                   props.active === "home" ? "primary.main" : "text.primary",
@@ -239,6 +240,7 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="a"
+              onClick={() => setOpen(false)}
               href="#services"
               sx={{
                 color:
@@ -266,6 +268,7 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="a"
+              onClick={() => setOpen(false)}
               href="#about"
               sx={{
                 color:
@@ -293,6 +296,7 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="a"
+              onClick={() => setOpen(false)}
               href="#contact"
               sx={{
                 color:
