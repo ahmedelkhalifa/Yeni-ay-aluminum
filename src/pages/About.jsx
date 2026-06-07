@@ -13,7 +13,7 @@ import heroImg from "../assets/garden_house/1.webp";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
-import img from "../assets/hero.webp";
+import img from "../assets/Hero.webp";
 import FeaturesPaper from "../components/FeaturesPaper";
 import WhyUs from "../components/WhyUs";
 import Steps from "../components/Steps";
