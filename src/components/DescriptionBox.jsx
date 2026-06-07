@@ -20,10 +20,10 @@ const DescriptionBox = (props) => {
         gap: 0,
       }}
     >
-      <Box sx={{ flex: 1, overflow: "hidden", borderRadius: 2 }}>
+      <Box sx={{ flex: 1, overflow: "hidden", borderRadius: 2, width: "100%", height: "100%" }}>
         <Box
           component={"img"}
-          src={service.image}
+          src={service.image2}
           sx={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 2 }}
         />
       </Box>

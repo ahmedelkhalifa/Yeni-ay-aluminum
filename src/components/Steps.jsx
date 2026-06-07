@@ -18,6 +18,13 @@ const Card = (props) => {
         justifyContent: "center",
         margin: "0 auto",
         width: { xs: "100%", md: "100%" },
+        bgcolor: "background.paper",
+        px: 3,
+        pb: 3,
+        pt: {xs: 3, md: 3},
+        height: "100%",
+        borderRadius: 3,
+        boxShadow: 1
       }}
     >
       <Box
@@ -90,7 +97,7 @@ const Steps = () => {
           sx={{
             display: { xs: "none", md: "block" },
             position: "absolute",
-            top: 40, // center of the icon box
+            top: 60, // center of the icon box
             left: "10%",
             right: "10%",
             height: "2px",
@@ -98,7 +105,7 @@ const Steps = () => {
             zIndex: 0,
           }}
         />
-        <Grid container spacing={8} sx={{ mt: 8, justifyContent: "center", zIndex: 100 }}>
+        <Grid container spacing={4} sx={{ mt: 8, justifyContent: "center", zIndex: 100 }}>
           <Grid size={{ xs: 6, md: 12 / 5 }}>
             <Card
               icon={<BiSearchAlt fontSize={36} color="#FF6B00" />}

@@ -39,7 +39,7 @@ const Home = () => {
             sx={{
               flex: 1,
               position: "relative",
-              top: { xs: 0, md: -20, lg: -50, zIndex: 100 },
+              top: { xs: 0, md: 0, lg: -50, zIndex: 100 },
               mt: {xs: 10, md: 0}
             }}
           >

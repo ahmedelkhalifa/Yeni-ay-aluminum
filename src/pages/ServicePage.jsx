@@ -10,6 +10,8 @@ import { NavigateNext } from "@mui/icons-material";
 import DescriptionBox from "../components/DescriptionBox";
 import Footer from "../components/Footer";
 import Steps from "../components/Steps";
+import WhyUs from "../components/WhyUs";
+import FAQs from "../components/FAQs";
 
 const Links = ({name}) => {
   const { t } = useTranslation();
@@ -79,7 +81,13 @@ const ServicePage = () => {
       <Container maxWidth="lg" sx={{mb: "100px"}}>
           <DescriptionBox id={service.id}/>
           <Box sx={{mt: 8}}>
+            <FAQs id={service.id} />
+          </Box>
+          <Box sx={{mt: 8}}>
             <Steps />
+          </Box>
+          <Box sx={{mt: 8}}>
+            <WhyUs />
           </Box>
       </Container>
       <Footer />

@@ -223,8 +223,10 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="div"
-              onClick={() => navigate("/#home")}
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                navigate("/#home");
+                setOpen(false);
+              }}
               sx={{
                 color:
                   props.active === "home" ? "primary.main" : "text.primary",
@@ -252,8 +254,10 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="div"
-              onClick={() => navigate("/#services")}
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                navigate("/#services");
+                setOpen(false);
+              }}
               sx={{
                 color:
                   props.active === "services" ? "primary.main" : "text.primary",
@@ -281,8 +285,10 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="div"
-              onClick={() => navigate("/about")}
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                navigate("/about");
+                setOpen(false);
+              }}
               sx={{
                 color:
                   props.active === "about" ? "primary.main" : "text.primary",
@@ -310,8 +316,10 @@ const Nav = (props) => {
             <Typography
               variant="h6"
               component="div"
-              onClick={() => navigate("/contact")}
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                navigate("/contact");
+                setOpen(false);
+              }}
               sx={{
                 color:
                   props.active === "contact" ? "primary.main" : "text.primary",

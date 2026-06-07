@@ -1,13 +1,18 @@
-
 import { PiDoorOpen } from "react-icons/pi";
 import { GiWindow } from "react-icons/gi";
 import { TbBuildingBridge2 } from "react-icons/tb";
 import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 import aluminum from "../assets/sliding_windows/2.webp";
+import aluminum3 from "../assets/doors/2.webp";
+import aluminum2 from "../assets/electric/2.webp";
 import balcony from "../assets/balcony/2.webp";
+import balcony2 from "../assets/balcony/1.webp";
 import terrace from "../assets/pergola/1.webp";
+import terrace2 from "../assets/pergola/2.webp";
 import sliding from "../assets/sliding_windows/1.webp";
+import sliding2 from "../assets/sliding_windows/2.webp";
 import maintenance from "../assets/Hero.webp";
+import maintenance2 from "../assets/garden_house/1.webp";
 
 export const getServices = (t) => [
   {
@@ -17,6 +22,8 @@ export const getServices = (t) => [
     description: t("services.1.desc"),
     icon: PiDoorOpen,
     image: aluminum,
+    image2: aluminum2,
+    image3: aluminum3,
     bullets: [
       t("services.1.bullets.1"),
       t("services.1.bullets.2"),
@@ -26,24 +33,24 @@ export const getServices = (t) => [
       question: t("services.1.explanation.question"),
       answer: t("services.1.explanation.answer"),
     },
-    faqs: {
-      1: {
+    faqs: [
+      {
         question: t("services.1.FAQs.1.question"),
         answer: t("services.1.FAQs.1.answer"),
       },
-      2: {
+      {
         question: t("services.1.FAQs.2.question"),
         answer: t("services.1.FAQs.2.answer"),
       },
-      3: {
+      {
         question: t("services.1.FAQs.3.question"),
         answer: t("services.1.FAQs.3.answer"),
       },
-      4: {
+      {
         question: t("services.1.FAQs.4.question"),
         answer: t("services.1.FAQs.4.answer"),
       },
-    },
+    ],
   },
   {
     id: 2,
@@ -52,6 +59,7 @@ export const getServices = (t) => [
     description: t("services.2.desc"),
     icon: GiWindow,
     image: balcony,
+    image2: balcony2,
     bullets: [
       t("services.2.bullets.1"),
       t("services.2.bullets.2"),
@@ -63,24 +71,24 @@ export const getServices = (t) => [
       question: t("services.2.explanation.question"),
       answer: t("services.2.explanation.answer"),
     },
-    faqs: {
-      1: {
+    faqs: [
+      {
         question: t("services.2.FAQs.1.question"),
         answer: t("services.2.FAQs.1.answer"),
       },
-      2: {
+      {
         question: t("services.2.FAQs.2.question"),
         answer: t("services.2.FAQs.2.answer"),
       },
-      3: {
+      {
         question: t("services.2.FAQs.3.question"),
         answer: t("services.2.FAQs.3.answer"),
       },
-      4: {
+      {
         question: t("services.2.FAQs.4.question"),
         answer: t("services.2.FAQs.4.answer"),
       },
-    },
+    ],
   },
   {
     id: 3,
@@ -89,6 +97,7 @@ export const getServices = (t) => [
     description: t("services.3.desc"),
     icon: TbBuildingBridge2,
     image: terrace,
+    image2: terrace2,
     bullets: [
       t("services.3.bullets.1"),
       t("services.3.bullets.2"),
@@ -100,24 +109,24 @@ export const getServices = (t) => [
       question: t("services.3.explanation.question"),
       answer: t("services.3.explanation.answer"),
     },
-    faqs: {
-      1: {
+    faqs: [
+      {
         question: t("services.3.FAQs.1.question"),
         answer: t("services.3.FAQs.1.answer"),
       },
-      2: {
+      {
         question: t("services.3.FAQs.2.question"),
         answer: t("services.3.FAQs.2.answer"),
       },
-      3: {
+      {
         question: t("services.3.FAQs.3.question"),
         answer: t("services.3.FAQs.3.answer"),
       },
-      4: {
+      {
         question: t("services.3.FAQs.4.question"),
         answer: t("services.3.FAQs.4.answer"),
       },
-    },
+    ],
   },
   {
     id: 4,
@@ -126,6 +135,7 @@ export const getServices = (t) => [
     description: t("services.4.desc"),
     icon: GiWindow,
     image: sliding,
+    image2: sliding2,
     bullets: [
       t("services.4.bullets.1"),
       t("services.4.bullets.2"),
@@ -137,24 +147,24 @@ export const getServices = (t) => [
       question: t("services.4.explanation.question"),
       answer: t("services.4.explanation.answer"),
     },
-    faqs: {
-      1: {
+    faqs: [
+      {
         question: t("services.4.FAQs.1.question"),
         answer: t("services.4.FAQs.1.answer"),
       },
-      2: {
+      {
         question: t("services.4.FAQs.2.question"),
         answer: t("services.4.FAQs.2.answer"),
       },
-      3: {
+      {
         question: t("services.4.FAQs.3.question"),
         answer: t("services.4.FAQs.3.answer"),
       },
-      4: {
+      {
         question: t("services.4.FAQs.4.question"),
         answer: t("services.4.FAQs.4.answer"),
       },
-    },
+    ],
   },
   {
     id: 5,
@@ -163,6 +173,7 @@ export const getServices = (t) => [
     description: t("services.5.desc"),
     icon: HiOutlineWrenchScrewdriver,
     image: maintenance,
+    image2: maintenance2,
     bullets: [
       t("services.5.bullets.1"),
       t("services.5.bullets.2"),
@@ -174,23 +185,23 @@ export const getServices = (t) => [
       question: t("services.5.explanation.question"),
       answer: t("services.5.explanation.answer"),
     },
-    faqs: {
-      1: {
+    faqs: [
+      {
         question: t("services.5.FAQs.1.question"),
         answer: t("services.5.FAQs.1.answer"),
       },
-      2: {
+      {
         question: t("services.5.FAQs.2.question"),
         answer: t("services.5.FAQs.2.answer"),
       },
-      3: {
+      {
         question: t("services.5.FAQs.3.question"),
         answer: t("services.5.FAQs.3.answer"),
       },
-      4: {
+      {
         question: t("services.5.FAQs.4.question"),
         answer: t("services.5.FAQs.4.answer"),
       },
-    },
+    ],
   },
 ];

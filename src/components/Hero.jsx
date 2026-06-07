@@ -74,7 +74,7 @@ const Hero = (props) => {
               color: "text.primary",
               display: "inline-block",
               mt: 2,
-              fontSize: { xs: "48px", md: "64px" },
+              fontSize: { xs: "48px", md: "48px", lg: "64px" },
             }}
           >
             {props.title1}
@@ -82,7 +82,7 @@ const Hero = (props) => {
           <Typography
             variant="h1"
             sx={{
-              fontSize: { xs: "48px", md: "64px" },
+              fontSize: { xs: "48px", md: "48px", lg: "64px" },
               color: "primary.main",
               position: "relative",
               "&::after": {

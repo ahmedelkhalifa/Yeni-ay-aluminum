@@ -12,6 +12,12 @@
     "contactBtn": "CONTACT US"
   },
 
+  "faq": {
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "cardTitle": "Quote Now For Your Project",
+    "cardDesc": "Our expert team is ready to provide you the best solutions."
+  },
+
   "home": {
     "top": "ALUMINUM & WINDOWS WORK",
     "title1": "Quality Work,",
@@ -268,6 +274,26 @@
     "5": {
         "title": "Delivery",
         "desc": "We make the delivery after the checks"
+    }
+  },
+
+  "whyUs": {
+    "title": "WHY YENİ AY ALUMINUM",
+    "1": {
+      "title": "Quality Material",
+      "desc": "We use first-class material, which is durable and long-lasting"
+    },
+    "2": {
+      "title": "Guaranteed Workmanship",
+      "desc": "We offer a workmanship and product warranty on all our applications"
+    },
+    "3": {
+      "title": "Expert Team",
+      "desc": "We provide the best service with our experienced and professional team"
+    },
+    "4": {
+      "title": "On-time Delivery",
+      "desc": "We value your time by delivering your projects within the planned time"
     }
   }
 }

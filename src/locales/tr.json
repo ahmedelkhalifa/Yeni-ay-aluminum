@@ -7,6 +7,12 @@
     "button": "TEKLİF AL"
   },
 
+  "faq": {
+    "title": "SIK SORULAN SORULAR",
+    "cardTitle": "Projeniz İçin Teklif Alın",
+    "cardDesc": "Uzman ekibimiz size en uygun çözümü sunmak için hazır"
+  },
+
   "hero": {
     "quoteBtn": "TEKLİF AL",
     "contactBtn": "İLETİŞİM"
@@ -268,6 +274,26 @@
     "5": {
         "title": "Teslimat",
         "desc": "Kontroller sonrası teslimatı gerçekleştiriyoruz"
+    }
+  },
+
+  "whyUs": {
+    "title": "NEDEN YENİ AY ALÜMİNYUM",
+    "1": {
+      "title": "Kaliteli Malzeme",
+      "desc": "Dayanıklı ve uzun ömürlü birinci sınıf malzeme kullanıyoruz"
+    },
+    "2": {
+      "title": "Garantili İşçilik",
+      "desc": "Tüm uygulamalarımızda işçilik ve ürün garantisi sunuyoruz"
+    },
+    "3": {
+      "title": "Uzman Ekip",
+      "desc": "Deneyimli ve profesyonel ekibimizle en iyi hizmet sağlıyoruz"
+    },
+    "4": {
+      "title": "Zamanında Teslim",
+      "desc": "Projelerinizi planlanan sürede teslim ederek zamanınıza değer veriyoruz"
     }
   }
 }
