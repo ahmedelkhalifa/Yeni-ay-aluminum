@@ -5,6 +5,7 @@ import ServicePage from "./pages/ServicePage";
 import ScrollToTop from "./utils/ScrollToTop";
 import {ScrollToHash} from "./utils/ScrollToHash";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const App = () => {
  
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/services/:id" element={<ServicePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

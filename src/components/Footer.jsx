@@ -11,9 +11,11 @@ import {
   WhatsApp,
   YouTube,
 } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <Box sx={{ width: "100%", bgcolor: "secondary.main" }}>
       <Container maxWidth="lg">
@@ -164,9 +166,10 @@ const Footer = () => {
               >
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#home"
+                  component="div"
+                  onClick={() => navigate("/#home")}
                   sx={{
+                    cursor: "pointer",
                     fontSize: 14,
                     color: "background.default",
                     fontWeight: 400,
@@ -177,10 +180,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#services"
+                  component="div"
+                  onClick={() => navigate("/#services")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -190,10 +194,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#about"
+                  component="div"
+                  onClick={() => navigate("/about")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -203,10 +208,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#contact"
+                  component="div"
+                  onClick={() => navigate("/contact")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -255,10 +261,11 @@ const Footer = () => {
               >
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#home"
+                  component="div"
+                  onClick={() => navigate("/services/1")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -268,10 +275,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#services"
+                  component="div"
+                  onClick={() => navigate("/services/2")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -281,10 +289,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#about"
+                  component="div"
+                  onClick={() => navigate("/services/3")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -294,10 +303,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#contact"
+                  component="div"
+                  onClick={() => navigate("/services/4")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -307,10 +317,11 @@ const Footer = () => {
                 </Typography>
                 <Typography
                   variant="body1"
-                  component={"a"}
-                  href="#contact"
+                  component="div"
+                  onClick={() => navigate("/services/5")}
                   sx={{
                     fontSize: 14,
+                    cursor: "pointer",
                     color: "background.default",
                     fontWeight: 400,
                     textDecoration: "none",
@@ -365,7 +376,7 @@ const Footer = () => {
                   <Typography
                     variant="body1"
                     component={"a"}
-                    href="#home"
+                    href="tel:+905338299257"
                     sx={{
                       fontSize: 14,
                       color: "background.default",
@@ -384,7 +395,7 @@ const Footer = () => {
                   <Typography
                     variant="body1"
                     component={"a"}
-                    href="#home"
+                    href="#"
                     sx={{
                       fontSize: 14,
                       color: "background.default",
@@ -403,7 +414,7 @@ const Footer = () => {
                   <Typography
                     variant="body1"
                     component={"a"}
-                    href="#home"
+                    href="#"
                     sx={{
                       fontSize: 14,
                       color: "background.default",
@@ -425,7 +436,7 @@ const Footer = () => {
             alignItems: "center",
             justifyContent: "space-between",
             flexDirection: { xs: "column", md: "row" },
-            py: 2
+            py: 2,
           }}
         >
           <Typography

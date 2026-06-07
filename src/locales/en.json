@@ -41,6 +41,50 @@
         "title": "Satisfaction",
         "text": "We offer the most suitable solutions to your needs with our customer-oriented approach."
       }
+    },
+    "FAQs": {
+      "1": {
+        "question": "Is getting a quote free?",
+        "answer": "Yes. All our site inspections and quotations are completely free of charge. We evaluate your needs and provide the most suitable solution along with a detailed price estimate."
+      },
+      "2": {
+        "question": "How long does the site inspection take?",
+        "answer": "The duration of the site inspection depends on the size and complexity of the project, but it is usually completed within a short time. Measurements are taken, requirements are assessed, and detailed information about the process is provided."
+      },
+      "3": {
+        "question": "Which areas do you serve?",
+        "answer": "We provide services throughout Cyprus. Our inspection, manufacturing, installation, and technical support services are available in Nicosia, Kyrenia, Famagusta, Iskele, Guzelyurt, and Lefke, as well as all surrounding districts and regions."
+      },
+      "4": {
+        "question": "Do you provide a warranty?",
+        "answer": "Yes. We provide warranty coverage for both our materials and workmanship. Warranty terms may vary depending on the type of product and project."
+      }
+    }
+  },
+
+  "contact": {
+    "top": "CONTACT",
+    "title1": "LET'S PLAN",
+    "title2": "YOUR PROJECT TOGETHER",
+    "desc": "Get a free quote for doors, windows, balcony enclosures, and terrace systems.",
+    "phone": "PHONE",
+    "phoneBtn": "CALL NOW",
+    "whatsapp": "WHATSAPP",
+    "whatsappBtn": "SEND MESSAGE",
+    "whatsappTxt": "Fast support and quote",
+    "mail": "EMAIL",
+    "mailBtn": "SEND EMAIL",
+    "address": "ADDRESS",
+    "addressBtn": "GET LOCATION",
+    "form": {
+      "title": "GET IN TOUCH",
+      "sub": "Fill out the form and we'll get back to you as soon as possible.",
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "button": "SEND REQUEST",
+      "working-hours": "Monday - Saturday",
+      "working-hours-title": "WORKING HOURS"
     }
   },
 
@@ -260,46 +304,46 @@
 
   "cta": {
     "card": {
-        "1": {
-            "title": "Free Inspection",
-            "desc": "On-site inspection and professional consultancy"
-        },
-        "2": {
-            "title": "Guaranteed Workmanship",
-            "desc": "Workmanship guarantee on all our applications"
-        },
-        "3": {
-            "title": "Quality Material",
-            "desc": "Long-lasting, durable and high-quality material use"
-        },
-        "4": {
-            "title": "On-time Delivery",
-            "desc": "We deliver your projects within the promised time"
-        }
+      "1": {
+        "title": "Free Inspection",
+        "desc": "On-site inspection and professional consultancy"
+      },
+      "2": {
+        "title": "Guaranteed Workmanship",
+        "desc": "Workmanship guarantee on all our applications"
+      },
+      "3": {
+        "title": "Quality Material",
+        "desc": "Long-lasting, durable and high-quality material use"
+      },
+      "4": {
+        "title": "On-time Delivery",
+        "desc": "We deliver your projects within the promised time"
+      }
     }
   },
 
   "steps": {
     "title": "OUR WORKING PROCESS",
     "1": {
-        "title": "Inspection",
-        "desc": "We determine your needs with free inspections"
+      "title": "Inspection",
+      "desc": "We determine your needs with free inspections"
     },
     "2": {
-        "title": "Measurments",
-        "desc": "We take professional measurements"
+      "title": "Measurments",
+      "desc": "We take professional measurements"
     },
     "3": {
-        "title": "Production",
-        "desc": "We produce with quality materials"
+      "title": "Production",
+      "desc": "We produce with quality materials"
     },
     "4": {
-        "title": "Assembly",
-        "desc": "We provide clean and fast assembly with our expert team"
+      "title": "Assembly",
+      "desc": "We provide clean and fast assembly with our expert team"
     },
     "5": {
-        "title": "Delivery",
-        "desc": "We make the delivery after the checks"
+      "title": "Delivery",
+      "desc": "We make the delivery after the checks"
     }
   },
 

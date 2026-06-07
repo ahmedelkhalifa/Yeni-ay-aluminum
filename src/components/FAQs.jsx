@@ -10,10 +10,12 @@ import {
   Typography,
 } from "@mui/material";
 import { East, ExpandMore } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const FAQs = (props) => {
   const { t } = useTranslation();
   const service = getServices(t).find((service) => service.id === props.id);
+  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -163,7 +165,7 @@ const FAQs = (props) => {
           >
             {t("faq.cardDesc")}
           </Typography>
-          <Box sx={{display: "flex", flexDirection: "column", gap: 2, mt: 3}}>
+          <Box sx={{ display: "flex", flexDirection: "column", gap: 2, mt: 3 }}>
             <Button
               variant="contained"
               sx={{
@@ -172,6 +174,9 @@ const FAQs = (props) => {
                 color: "background.default",
               }}
               endIcon={<East />}
+              onClick={() => {
+                window.open("tel:+905338299257");
+              }}
             >
               {t("hero.quoteBtn")}
             </Button>
@@ -184,6 +189,7 @@ const FAQs = (props) => {
                 borderColor: "background.default",
               }}
               endIcon={<East />}
+              onClick={() => navigate("/contact")}
             >
               {t("hero.contactBtn")}
             </Button>

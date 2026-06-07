@@ -55,6 +55,24 @@
         "title": "Memnuniyet",
         "text": "Müşteri odaklı yaklaşımımızla ihtiyaçlara en uygun çözümleri sunuyoruz."
       }
+    },
+    "FAQs": {
+      "1": {
+        "question": "Teklif almak ücretli mi?",
+        "answer": "Hayır. Tüm keşif ve teklif hizmetlerimiz tamamen ücretsizdir. İhtiyaçlarınızı değerlendirerek size en uygun çözüm ve fiyat teklifini sunuyoruz."
+      },
+      "2": {
+        "question": "Keşif ne kadar sürüyor?",
+        "answer": "Keşif süresi projenin büyüklüğüne göre değişmekle birlikte genellikle kısa sürede tamamlanır. Ölçümler alınır, ihtiyaçlar değerlendirilir ve süreç hakkında detaylı bilgi verilir."
+      },
+      "3": {
+        "question": "Hangi bölgelere hizmet veriyorsunuz?",
+        "answer": "Kıbrıs genelinde hizmet vermekteyiz. Lefkoşa, Girne, Gazimağusa, İskele, Güzelyurt ve Lefke başta olmak üzere tüm ilçe ve bölgelere keşif, üretim, montaj ve teknik destek hizmeti sunuyoruz."
+      },
+      "4": {
+        "question": "Garanti veriyor musunuz?",
+        "answer": "Evet. Kullandığımız malzemeler ve uygulama hizmetlerimiz için garanti desteği sunuyoruz. Garanti kapsamı proje ve ürün türüne göre değişebilir."
+      }
     }
   },
 
@@ -77,6 +95,32 @@
     "address": "Mağusa, KKTC",
     "copyright": "Yeni Ay Alüminyum, Tüm hakları saklıdır.",
     "arcstack": "Web Tasarım: ArcStack"
+  },
+
+  "contact": {
+    "top": "İLETİŞİM",
+    "title1": "PROJENİZİ",
+    "title2": "BİRLİKTE PLANLAYALIM",
+    "desc": "Kapı, pencere, balkon kapama ve teras sistemleri için ücretsiz teklif alın.",
+    "phone": "TELEFON",
+    "phoneBtn": "HEMEN ARA",
+    "whatsapp": "WHATSAPP",
+    "whatsappBtn": "MESAJ GÖNDER",
+    "whatsappTxt": "Hızlı destek ve teklif",
+    "mail": "E-POSTA",
+    "mailBtn": "E-POSTA GÖNDER",
+    "address": "ADRES",
+    "addressBtn": "YOL TARİFİ AL",
+    "form": {
+      "title": "BİZE ULAŞIN",
+      "sub": "Formu doldurun size en kısa sürede dönüş yapalım.",
+      "name": "Ad Soyad",
+      "phone": "Telefon Numaranız",
+      "message": "Mesajınız",
+      "button": "TEKLİF GÖNDER",
+      "working-hours": "Pazartesi - Cumartesi",
+      "working-hours-title": "ÇALIŞMA SAATELRİ"
+    }
   },
 
   "services": {
@@ -260,46 +304,46 @@
 
   "cta": {
     "card": {
-        "1": {
-            "title": "Ücretsiz Keşif",
-            "desc": "Yerinde keşif ve profesyonel danışmanlık"
-        },
-        "2": {
-            "title": "Garantili İşçilik",
-            "desc": "Tüm uygulamalarımızda işçilik garantisi"
-        },
-        "3": {
-            "title": "Kaliteli Malzeme",
-            "desc": "Uzun ömürlü, dayanıklı ve kaliteli malzeme kullanımı"
-        },
-        "4": {
-            "title": "Zamanında Teslim",
-            "desc": "Projelerinizi taahhüt edilen sürede teslim ediyoruz"
-        }
+      "1": {
+        "title": "Ücretsiz Keşif",
+        "desc": "Yerinde keşif ve profesyonel danışmanlık"
+      },
+      "2": {
+        "title": "Garantili İşçilik",
+        "desc": "Tüm uygulamalarımızda işçilik garantisi"
+      },
+      "3": {
+        "title": "Kaliteli Malzeme",
+        "desc": "Uzun ömürlü, dayanıklı ve kaliteli malzeme kullanımı"
+      },
+      "4": {
+        "title": "Zamanında Teslim",
+        "desc": "Projelerinizi taahhüt edilen sürede teslim ediyoruz"
+      }
     }
   },
 
   "steps": {
     "title": "ÇALIŞMA SÜRECİMİZ",
     "1": {
-        "title": "Keşif",
-        "desc": "Ücretsiz keşif ile ihtiyaçlarınızı beliriyoruz"
+      "title": "Keşif",
+      "desc": "Ücretsiz keşif ile ihtiyaçlarınızı beliriyoruz"
     },
     "2": {
-        "title": "Ölçülendirme",
-        "desc": "Profesiyonel ölçü alımı gerçekleştiriyoruz"
+      "title": "Ölçülendirme",
+      "desc": "Profesiyonel ölçü alımı gerçekleştiriyoruz"
     },
     "3": {
-        "title": "Üretim",
-        "desc": "Kaliteli malzemelerle üretimi yapıyoruz"
+      "title": "Üretim",
+      "desc": "Kaliteli malzemelerle üretimi yapıyoruz"
     },
     "4": {
-        "title": "Montaj",
-        "desc": "Uzman ekibimizle temiz ve hızlı montaj sağlıyoruz"
+      "title": "Montaj",
+      "desc": "Uzman ekibimizle temiz ve hızlı montaj sağlıyoruz"
     },
     "5": {
-        "title": "Teslimat",
-        "desc": "Kontroller sonrası teslimatı gerçekleştiriyoruz"
+      "title": "Teslimat",
+      "desc": "Kontroller sonrası teslimatı gerçekleştiriyoruz"
     }
   },
 

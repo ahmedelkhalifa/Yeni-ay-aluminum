@@ -39,7 +39,7 @@ const Values = () => {
             title={t("about.values.1.title")}
             desc={t("about.values.1.text")}
             icon={<IoDiamondOutline fontSize={36} color="#FF6B00" />}
-            variant="row"
+            variant="column"
             bg={true}
           />
         </Grid>
@@ -48,7 +48,7 @@ const Values = () => {
             title={t("about.values.2.title")}
             desc={t("about.values.2.text")}
             icon={<IoShieldCheckmarkOutline fontSize={36} color="#FF6B00" />}
-            variant="row"
+            variant="column"
             bg={true}
           />
         </Grid>
@@ -57,7 +57,7 @@ const Values = () => {
             title={t("about.values.3.title")}
             desc={t("about.values.3.text")}
             icon={<TbUserStar fontSize={36} color="#FF6B00" />}
-            variant="row"
+            variant="column"
             bg={true}
           />
         </Grid>
@@ -66,7 +66,7 @@ const Values = () => {
             title={t("about.values.4.title")}
             desc={t("about.values.4.text")}
             icon={<FaRegHandshake fontSize={36} color="#FF6B00" />}
-            variant="row"
+            variant="column"
             bg={true}
           />
         </Grid>

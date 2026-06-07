@@ -33,8 +33,16 @@ const CTACard = () => {
           icon={<BiSearchAlt fontSize={24} color="#FF6B00" />}
         />
       </Box>
-      <Divider orientation="vertical" flexItem sx={{display: {xs: "none", md: "block"}}}/>
-      <Divider orientation="horizontal" flexItem sx={{display: {xs: "block", md: "none"}, borderWidth: 1.5}}/>
+      <Divider
+        orientation="vertical"
+        flexItem
+        sx={{ display: { xs: "none", md: "block" } }}
+      />
+      <Divider
+        orientation="horizontal"
+        flexItem
+        sx={{ display: { xs: "block", md: "none" }, borderWidth: 1.5 }}
+      />
       <Box sx={{ flex: 1 }}>
         <ClassicCard
           variant="row"
@@ -43,8 +51,16 @@ const CTACard = () => {
           icon={<LuShieldCheck fontSize={24} color="#FF6B00" />}
         />
       </Box>
-      <Divider orientation="vertical" flexItem sx={{display: {xs: "none", md: "block"}}}/>
-      <Divider orientation="horizontal" flexItem sx={{display: {xs: "block", md: "none"}, borderWidth: 1.5}}/>
+      <Divider
+        orientation="vertical"
+        flexItem
+        sx={{ display: { xs: "none", md: "block" } }}
+      />
+      <Divider
+        orientation="horizontal"
+        flexItem
+        sx={{ display: { xs: "block", md: "none" }, borderWidth: 1.5 }}
+      />
       <Box sx={{ flex: 1 }}>
         <ClassicCard
           variant="row"
@@ -53,8 +69,16 @@ const CTACard = () => {
           icon={<BsStack fontSize={24} color="#FF6B00" />}
         />
       </Box>
-      <Divider orientation="vertical" flexItem sx={{display: {xs: "none", md: "block"}}}/>
-      <Divider orientation="horizontal" flexItem sx={{display: {xs: "block", md: "none"}, borderWidth: 1.5}}/>
+      <Divider
+        orientation="vertical"
+        flexItem
+        sx={{ display: { xs: "none", md: "block" } }}
+      />
+      <Divider
+        orientation="horizontal"
+        flexItem
+        sx={{ display: { xs: "block", md: "none" }, borderWidth: 1.5 }}
+      />
       <Box sx={{ flex: 1 }}>
         <ClassicCard
           variant="row"
@@ -70,9 +94,12 @@ const CTACard = () => {
             width: { xs: "100%", md: "150px" },
             height: "50px",
             color: "background.default",
-            mt: {xs: 2, md: 0}
+            mt: { xs: 2, md: 0 },
           }}
           endIcon={<East />}
+          onClick={() => {
+            window.open("tel:+905338299257");
+          }}
         >
           {t("hero.quoteBtn")}
         </Button>

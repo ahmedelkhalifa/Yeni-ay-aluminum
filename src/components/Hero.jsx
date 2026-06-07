@@ -11,9 +11,11 @@ import {
 } from "@mui/icons-material";
 import { useTranslation } from "react-i18next";
 import FeaturesPaper from "./FeaturesPaper.jsx";
+import { useNavigate } from "react-router-dom";
 
 const Hero = (props) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -128,6 +130,9 @@ const Hero = (props) => {
               borderRadius: 0,
             }}
             startIcon={<PhonelinkRing />}
+            onClick={() => {
+              window.open("tel:+905338299257")
+            }}
           >
             {t("hero.quoteBtn")}
           </Button>
@@ -143,6 +148,7 @@ const Hero = (props) => {
               color: "text.primary",
             }}
             endIcon={<East />}
+            onClick={() => navigate("/contact")}
           >
             {t("hero.contactBtn")}
           </Button>
