@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ServicePage from "./pages/ServicePage";
 import ScrollToTop from "./utils/ScrollToTop";
 import {ScrollToHash} from "./utils/ScrollToHash";
+import About from "./pages/About";
 
 const App = () => {
  
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services/:id" element={<ServicePage />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

@@ -80,13 +80,13 @@ const ServicePage = () => {
       </Box>
       <Container maxWidth="lg" sx={{mb: "100px"}}>
           <DescriptionBox id={service.id}/>
-          <Box sx={{mt: 8}}>
+          <Box sx={{mt: "100px"}}>
             <FAQs id={service.id} />
           </Box>
-          <Box sx={{mt: 8}}>
+          <Box sx={{mt: "100px"}}>
             <Steps />
           </Box>
-          <Box sx={{mt: 8}}>
+          <Box sx={{mt: "100px"}}>
             <WhyUs />
           </Box>
       </Container>

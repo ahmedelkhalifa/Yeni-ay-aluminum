@@ -32,6 +32,32 @@
     "support": "Müşteri desteği"
   },
 
+  "about": {
+    "top": "Hakkımızda",
+    "whoAreWe": "BİZ KİMİZ?",
+    "head": "DENEYİM VE KALİTEYİ BİR ARAYA GETİRİYORUZ",
+    "text": "Yılların deneyimiyle kapı, pencere, balkon kapama ve teras sistemlerinde güvenilir çözümler sunuyoruz. Her projede kaliteli malzeme, profesyonel uygulama ve müşteri memnuniyeti ön planda tutuyoruz.",
+    "values": {
+      "title": "DEĞERLERİMİZ",
+      "1": {
+        "title": "Kalite",
+        "text": "Birinci sınıf malzeme ve işçilik anlayışıyla kalıcı çözümler üretiyoruz."
+      },
+      "2": {
+        "title": "Güven",
+        "text": "Şeffaf süreçlerimiz ve dürüst hizmet anlayışımızla güven oluşturuyourz"
+      },
+      "3": {
+        "title": "Profesyonellik",
+        "text": "Uzman ekibimiz ve modern uygulamalarımızla profesyonel hizmet sunuyoruz."
+      },
+      "4": {
+        "title": "Memnuniyet",
+        "text": "Müşteri odaklı yaklaşımımızla ihtiyaçlara en uygun çözümleri sunuyoruz."
+      }
+    }
+  },
+
   "footer": {
     "sub": "Modern alüminyum ve cam sistemleri ile yaşam alanlarınıza değer katıyoruz",
     "links": "HIZLI LİNKLER",
@@ -278,7 +304,7 @@
   },
 
   "whyUs": {
-    "title": "NEDEN YENİ AY ALÜMİNYUM",
+    "title": "NEDEN YENİ AY ALÜMİNYUM?",
     "1": {
       "title": "Kaliteli Malzeme",
       "desc": "Dayanıklı ve uzun ömürlü birinci sınıf malzeme kullanıyoruz"

@@ -18,6 +18,32 @@
     "cardDesc": "Our expert team is ready to provide you the best solutions."
   },
 
+  "about": {
+    "top": "About Us",
+    "whoAreWe": "WHO ARE WE?",
+    "head": "WE BRING EXPERIENCE AND QUALITY TOGETHER",
+    "text": "With years of experience, we offer reliable solutions in door, window, balcony closing and terrace systems. We prioritize quality materials, professional application and customer satisfaction in every project.",
+    "values": {
+      "title": "OUR VALUES",
+      "1": {
+        "title": "Quality",
+        "text": "We produce permanent solutions with a first-class understanding of materials and workmanship."
+      },
+      "2": {
+        "title": "Trust",
+        "text": "We build trust with our transparent processes and honest service approach"
+      },
+      "3": {
+        "title": "Professionalism",
+        "text": "We offer professional service with our expert team and modern applications."
+      },
+      "4": {
+        "title": "Satisfaction",
+        "text": "We offer the most suitable solutions to your needs with our customer-oriented approach."
+      }
+    }
+  },
+
   "home": {
     "top": "ALUMINUM & WINDOWS WORK",
     "title1": "Quality Work,",
