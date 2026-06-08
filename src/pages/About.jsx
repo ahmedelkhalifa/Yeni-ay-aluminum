@@ -20,12 +20,28 @@ import Steps from "../components/Steps";
 import Values from "../components/Values";
 import { East, ExpandMore } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   return (
     <>
+      <Helmet>
+        <title>
+          {`Hakkımızda | Yeni Ay Aluminum | KKTC Alüminyum ve Cam Sistemleri`}
+        </title>
+        <meta
+          name="description"
+          content="Yeni Ay Aluminum olarak KKTC genelinde alüminyum kapı ve pencere sistemleri, balkon kapama, sürme cam ve teras çözümleri sunuyoruz. Kaliteli malzeme, profesyonel montaj ve müşteri memnuniyeti odaklı hizmet anlayışıyla çalışıyoruz."
+        />
+        <meta property="og:title" content="About Yeni Ay Aluminum" />
+        <meta
+          property="og:description"
+          content="Learn more about our experience, services, and commitment to quality aluminum and glass systems across Cyprus."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Box
         id="about"
         sx={{ height: { xs: "fit-content", md: "100vh" }, mb: "100px" }}

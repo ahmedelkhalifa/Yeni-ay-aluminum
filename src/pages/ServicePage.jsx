@@ -6,14 +6,15 @@ import { Box, Breadcrumbs, Container, Typography } from "@mui/material";
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import { NavigateNext } from "@mui/icons-material";
-  import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import DescriptionBox from "../components/DescriptionBox";
 import Footer from "../components/Footer";
 import Steps from "../components/Steps";
 import WhyUs from "../components/WhyUs";
 import FAQs from "../components/FAQs";
+import { Helmet } from "react-helmet-async";
 
-const Links = ({name}) => {
+const Links = ({ name }) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   return (
@@ -54,8 +55,28 @@ const ServicePage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>{`${service.name} | KKTC Alüminyum ve Cam Sistemleri | Yeni Ay Aluminum`}</title>
+        <meta
+          name="description"
+          content={`${service.description} KKTC genelinde ücretsiz keşif, garantili işçilik ve profesyonel montaj hizmetleri sunuyoruz.`}
+        />
+        <meta property="og:title" content={service.name} />
+
+        <meta property="og:description" content={service.description} />
+
+        <meta property="og:type" content="website" />
+        <link
+          rel="canonical"
+          href={`https://yeni-ay.vercel.app/services/${service.id}`}
+        />
+      </Helmet>
       <Box
-        sx={{ height: { xs: "fit-content", md: "100vh" }, mb: "100px", overflow: "hidden" }}
+        sx={{
+          height: { xs: "fit-content", md: "100vh" },
+          mb: "100px",
+          overflow: "hidden",
+        }}
       >
         <Box
           sx={{
@@ -78,17 +99,17 @@ const ServicePage = () => {
           </Box>
         </Box>
       </Box>
-      <Container maxWidth="lg" sx={{mb: "100px"}}>
-          <DescriptionBox id={service.id}/>
-          <Box sx={{mt: "100px"}}>
-            <FAQs id={service.id} />
-          </Box>
-          <Box sx={{mt: "100px"}}>
-            <Steps />
-          </Box>
-          <Box sx={{mt: "100px"}}>
-            <WhyUs />
-          </Box>
+      <Container maxWidth="lg" sx={{ mb: "100px" }}>
+        <DescriptionBox id={service.id} />
+        <Box sx={{ mt: "100px" }}>
+          <FAQs id={service.id} />
+        </Box>
+        <Box sx={{ mt: "100px" }}>
+          <Steps />
+        </Box>
+        <Box sx={{ mt: "100px" }}>
+          <WhyUs />
+        </Box>
       </Container>
       <Footer />
     </>

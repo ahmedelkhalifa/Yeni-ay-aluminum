@@ -24,6 +24,7 @@ import {
 import { CiClock2 } from "react-icons/ci";
 import WhyUs from "../components/WhyUs";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const Card = (props) => {
   return (
@@ -81,6 +82,25 @@ const Contact = () => {
   const messageRef = useRef();
   return (
     <>
+      <Helmet>
+        <title>
+          {`İletişim | Yeni Ay Aluminum | Ücretsiz Keşif ve Teklif`}
+        </title>
+
+        <meta
+          name="description"
+          content="KKTC genelinde alüminyum kapı ve pencere sistemleri, balkon kapama, sürme cam ve teras çözümleri için bizimle iletişime geçin. Ücretsiz keşif, hızlı dönüş ve garantili işçilik."
+        />
+
+        <meta property="og:title" content="İletişim | Yeni Ay Aluminum" />
+
+        <meta
+          property="og:description"
+          content="Ücretsiz keşif ve teklif almak için bizimle iletişime geçin."
+        />
+
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Box
         id="about"
         sx={{ height: { xs: "fit-content", md: "100vh" }, mb: 5 }}
@@ -106,7 +126,7 @@ const Contact = () => {
           </Box>
         </Box>
       </Box>
-      <Container maxWidth="lg" sx={{mb: "100px"}}>
+      <Container maxWidth="lg" sx={{ mb: "100px" }}>
         <Box sx={{ mb: 5 }}>
           <Grid container spacing={4}>
             <Grid size={{ xs: 12, md: 6, lg: 3 }}>
@@ -158,7 +178,13 @@ const Contact = () => {
           sx={{ mb: "100px" }}
         >
           <Box
-            sx={{ flex: 1, bgcolor: "background.paper", boxShadow: 20, p: 5, borderRadius: 3 }}
+            sx={{
+              flex: 1,
+              bgcolor: "background.paper",
+              boxShadow: 20,
+              p: 5,
+              borderRadius: 3,
+            }}
           >
             <Typography variant="h6">{t("contact.form.title")}</Typography>
             <Typography
@@ -202,8 +228,12 @@ const Contact = () => {
               inputRef={messageRef}
               placeholder={t("contact.form.message")}
             />
-            <Button variant="contained" sx={{width: "100%", height: "50px", mt: 3}} startIcon={<Send/>}>
-                {t("contact.form.button")}
+            <Button
+              variant="contained"
+              sx={{ width: "100%", height: "50px", mt: 3 }}
+              startIcon={<Send />}
+            >
+              {t("contact.form.button")}
             </Button>
           </Box>
           <Box
@@ -215,7 +245,7 @@ const Contact = () => {
               display: "flex",
               flexDirection: "column",
               gap: 2,
-              borderRadius: 3
+              borderRadius: 3,
             }}
           >
             <Box sx={{ flex: 1 }}>

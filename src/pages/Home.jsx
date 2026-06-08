@@ -6,12 +6,21 @@ import { useTranslation } from "react-i18next";
 import heroImg from "../assets/Hero.webp";
 import FeaturesPaper from "./../components/FeaturesPaper";
 import Footer from "./../components/Footer";
-import Services from './Services';
+import Services from "./Services";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const { t } = useTranslation();
   return (
     <>
+      <Helmet>
+        <title>Yeni Ay Aluminum | Alüminyum ve Cam Sistemleri KKTC</title>
+
+        <meta
+          name="description"
+          content="KKTC genelinde alüminyum kapı ve pencere sistemleri, balkon kapama, sürme cam sistemleri, teras çözümleri ve bakım hizmetleri. Ücretsiz keşif ve garantili işçilik."
+        />
+      </Helmet>
       <Box
         id="home"
         sx={{ height: { xs: "fit-content", md: "100vh" }, mb: "100px" }}
@@ -40,7 +49,7 @@ const Home = () => {
               flex: 1,
               position: "relative",
               top: { xs: 0, md: 0, lg: -50, zIndex: 100 },
-              mt: {xs: 10, md: 0}
+              mt: { xs: 10, md: 0 },
             }}
           >
             <Container maxWidth="lg">
@@ -49,7 +58,7 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
-      <Box sx={{mb: "100px"}} id="services">
+      <Box sx={{ mb: "100px" }} id="services">
         <Services />
       </Box>
       <Footer />
