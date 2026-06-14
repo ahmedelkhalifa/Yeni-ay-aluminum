@@ -25,6 +25,7 @@ import { CiClock2 } from "react-icons/ci";
 import WhyUs from "../components/WhyUs";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet-async";
+import i18next from "i18next";
 
 const Card = (props) => {
   return (
@@ -153,7 +154,7 @@ const Contact = () => {
               <Card
                 icon={<Email fontSize="large" sx={{ color: "primary.main" }} />}
                 title={t("contact.mail")}
-                sub={"info@yeniay.com"}
+                sub={i18next.language === "en" ? "Soon" : "Yakında"}
                 button={t("contact.mailBtn")}
               />
             </Grid>
@@ -250,6 +251,15 @@ const Contact = () => {
           >
             <Box sx={{ flex: 1 }}>
               <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52215.850539334846!2d33.89180576955876!3d35.11942732981053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfc842da4c163d%3A0x29db03c5a5d3ce87!2sFamagusta!5e0!3m2!1sen!2s!4v1781287376221!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13020.53075921418!2d33.30803132957763!3d35.327526347005644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de12d5e239a349%3A0x6349e58df1fa6c89!2sNusmar%20Market!5e0!3m2!1sen!2s!4v1780848948827!5m2!1sen!2s"
                 width="100%"
                 height="100%"
@@ -257,7 +267,7 @@ const Contact = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              />
+              /> */}
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
               <CiClock2 fontSize={36} color="#FF6B00" />

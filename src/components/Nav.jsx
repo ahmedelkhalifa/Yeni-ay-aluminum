@@ -187,6 +187,9 @@ const Nav = (props) => {
             borderRadius: 1,
           }}
           startIcon={<PhonelinkRing />}
+          onClick={() => {
+            window.open("https://wa.link/1n2i87", "_blank");
+          }}
         >
           {t("nav.button")}
         </Button>
@@ -368,6 +371,23 @@ const Nav = (props) => {
                 {i18next.language}
               </Typography>
             </Box>
+            <Button
+              variant="contained"
+              sx={{
+                height: "50px",
+                width: "100%",
+                fontWeight: 500,
+                display: { xs: "flex", md: "none" },
+                borderRadius: 1,
+                fontSize: 10
+              }}
+              startIcon={<PhonelinkRing />}
+              onClick={() => {
+                window.open("https://wa.link/1n2i87", "_blank");
+              }}
+            >
+              {t("nav.button")}
+            </Button>
           </Box>
         </Box>
       </Drawer>

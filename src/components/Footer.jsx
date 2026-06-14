@@ -81,7 +81,9 @@ const Footer = () => {
                   borderRadius: "50%",
                 }}
               >
-                <IconButton>
+                <IconButton onClick={() => {
+                  window.open("https://www.facebook.com/groups/107536306310107/user/61554209372015", "_blank")
+                }}>
                   <Facebook
                     fontSize="medium"
                     sx={{ color: "background.default" }}
@@ -119,7 +121,9 @@ const Footer = () => {
                   borderRadius: "50%",
                 }}
               >
-                <IconButton>
+                <IconButton onClick={() => {
+                  window.open("https://wa.link/1n2i87", "_blank")
+                }}>
                   <WhatsApp
                     fontSize="medium"
                     sx={{ color: "background.default" }}
@@ -387,15 +391,13 @@ const Footer = () => {
                     {t("footer.phone")}
                   </Typography>
                 </Box>
-                <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                {/* <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                   <Email
                     fontSize="medium"
                     sx={{ color: "background.default" }}
                   />
                   <Typography
                     variant="body1"
-                    component={"a"}
-                    href="#"
                     sx={{
                       fontSize: 14,
                       color: "background.default",
@@ -405,7 +407,7 @@ const Footer = () => {
                   >
                     {t("footer.email")}
                   </Typography>
-                </Box>
+                </Box> */}
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                   <LocationOnOutlined
                     fontSize="medium"
@@ -413,8 +415,6 @@ const Footer = () => {
                   />
                   <Typography
                     variant="body1"
-                    component={"a"}
-                    href="#"
                     sx={{
                       fontSize: 14,
                       color: "background.default",

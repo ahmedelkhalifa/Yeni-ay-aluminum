@@ -25,14 +25,14 @@ const FeaturesPaper = () => {
         <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <FeatureCard
             icon={<ApartmentOutlined fontSize="large" />}
-            number={"500+"}
+            number={"1000+"}
             text={t("features.projects")}
           />
         </Grid>
         <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <FeatureCard
             icon={<GppGoodOutlined fontSize="large" />}
-            number={"15+"}
+            number={"20+"}
             text={t("features.experience")}
           />
         </Grid>
